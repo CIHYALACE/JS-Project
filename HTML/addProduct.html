@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Product</title>
+    <link rel="stylesheet" href="../CSS/addProduct.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap"
+      rel="stylesheet"
+    />
+    <script src="function.js"></script>
+    <script defer src="../javascript/addProduct.js"></script>
+  </head>
+  <body>
+    <div class="addProduct-container">
+      <h2>Product Info</h2>
+      <form id="productForm">
+
+        <div class="input-control">
+          <label for="productName">Product Name:</label>
+          <input type="text" id="productName" name="productName" placeholder="Enter your product name"/>
+        </div>
+
+        <div class="input-control">
+          <label for="price">Price:(..$)</label>
+          <input type="text" id="price" name="price" placeholder="Enter product price"/>
+        </div>
+
+        <div class="input-control">
+          <label for="sellerEmail">Email</label>
+          <input type="text" id="sellerEmail" name="sellerEmail" placeholder="Enter Your Email"/>
+        </div>
+
+        <div class="input-control">
+          <label for="role">Role:</label>
+          <select id="role" name="role" required>
+            <option value="vases" selected>Vases</option>
+            <option value="decores">Decores</option>
+            <option value="candleHolders">Candel Holders</option>
+            <option value="keysHolders">Keys Holders</option>
+          </select>
+        </div>
+
+        <div class="input-control">
+          <label for="productImage">Product Image</label>
+          <input type="file" id="productImg" name="productImg" accept="image/*" placeholder="Enter product price"/>
+        </div>
+
+        <button type="button" id="addBtn" class="add-btn">Add Product</button>
+    </form>
+    </div>
+  </body>
+</html>

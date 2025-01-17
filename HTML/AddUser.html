@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="../CSS/addUser.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="addUser-container">
+      <h2>Enter User Info</h2>
+      <form id="addUserForm">
+
+        <div class="form-group">
+          <label for="fullName">Full Name:</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Enter your full name"/>
+          <div class="error"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Gmail:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your Gmail"/>
+          <div class="error"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="role">Role:</label>
+          <select id="role" name="role" required>
+            <option value="buyer" selected>Buyer</option>
+            <option value="seller">Seller</option>
+            <option value="admin">Admin</option>
+          </select>
+          <div class="error"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password"/>
+          <div class="error"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="confirmPassword">Confirm Password:</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password"/>
+          <div class="error"></div>
+        </div>
+
+        <button type="button" id="addUserBtn" class="addUserBtn">Add User</button>
+    </form>
+    </div>
+    <script src="../JavaScript/addUser.js"></script>
+  </body>
+</html>

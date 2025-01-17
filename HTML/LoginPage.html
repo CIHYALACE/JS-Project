@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="../CSS/Login.css" />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap"
+  rel="stylesheet"
+/>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="email">Gmail:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Gmail" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      </div>
+      <button class="login-btn" id="loginBtn">Login</button>
+    </form>
+    <a href="#" class="signup-link" id="signupLink" onclick="openSignUpWindow()">Don't have an account? Sign Up</a>
+  </div>
+   
+  <script src="../JavaScript/Login.js"></script>
+</body>
+</html>

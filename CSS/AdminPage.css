@@ -1,0 +1,95 @@
+#main {
+    border: 2px solid grey;
+    margin: 0 auto;
+    width: 80%;
+    background-color: #e5e8ef;
+  }
+
+#main h1{
+  font-family: "Petit Formal Script", serif;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#mainWrapper{
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    border-radius: 20px;
+    height: 300px;
+    background-color: lightgrey;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+table{
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.upperButtons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: left;
+    margin: 20px auto;
+    margin-bottom: 0; 
+    margin-left: 140px;
+    padding: 10px;
+    padding-bottom: 0;
+    max-width: 80%;
+  }
+
+  .upperButtons input[type="button"] {
+    background-color: lightgrey;
+    color: black;
+    border-top: 2px solid grey;
+    border-right: 2px solid grey; 
+    border-left: 2px solid grey;
+    border-bottom: none; 
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: "Petit Formal Script", serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .upperButtons input[type="button"]:hover,.lowerButtons input[type="button"]:hover {
+    background-color: grey;
+    transform: scale(1.05);
+    color: #f39c12;
+
+  }
+
+  .lowerButtons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: right;
+    margin: 20px auto;
+    margin-top: 0; 
+    margin-right: 140px;
+    padding: 10px;
+    padding-top: 0;
+    max-width: 80%;
+  }
+
+  .lowerButtons input{
+    background-color: lightgrey;
+    color: black;
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey; 
+    border-left: 2px solid grey;
+    border-top: none; 
+    border-radius: 0px 0px 5px 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: "Petit Formal Script", serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+

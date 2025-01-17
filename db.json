@@ -1,0 +1,228 @@
+{
+  "Users": [
+    {
+      "id": "03a6",
+      "fullName": "AbdelRahman Ahmed Mohammed",
+      "email": "abdelrahman@gmail.com",
+      "role": "admin",
+      "password": "abdo2015",
+      "confirmPassword": "abdo2015"
+    },
+    {
+      "id": "29b9",
+      "fullName": "Eman Gomaa",
+      "email": "eman@gmail.com",
+      "role": "admin",
+      "password": "eman2000",
+      "confirmPassword": "eman2000"
+    },
+    {
+      "id": "b767",
+      "fullName": "omar ahmed youssef",
+      "email": "omar@gmail.com",
+      "role": "seller",
+      "password": "omar2000",
+      "confirmPassword": "omar2000"
+    },
+    {
+      "id": "b29f",
+      "fullName": "ahmed mohammed youssef",
+      "email": "ahmed@gmail.com",
+      "role": "buyer",
+      "password": "ahmed2000",
+      "confirmPassword": "ahmed2000"
+    },
+    {
+      "id": "0225",
+      "fullName": "Mona Ali",
+      "email": "Mona@gmail.com",
+      "role": "buyer",
+      "password": "mona2000",
+      "confirmPassword": "mona2000"
+    },
+    {
+      "id": "8d30",
+      "fullName": "ahmed soliman",
+      "email": "soliman@gmail.com",
+      "role": "seller",
+      "password": "Soliman2000",
+      "confirmPassword": "Soliman2000"
+    },
+    {
+      "id": "938f",
+      "fullName": "sara mohsen",
+      "email": "sara@gmail.com",
+      "role": "buyer",
+      "password": "Sara2000",
+      "confirmPassword": "Sara2000"
+    },
+    {
+      "id": "c023",
+      "fullName": "Shaher Alaa",
+      "email": "shaheralaa007@gmail.com",
+      "role": "buyer",
+      "password": "Shaher2000",
+      "confirmPassword": "Shaher2000"
+    },
+    {
+      "id": "9462",
+      "fullName": "yousef abdallah",
+      "email": "yoiusef.abdallah77@gmail.com",
+      "role": "buyer",
+      "password": "123456!@Az",
+      "confirmPassword": "123456!@Az"
+    },
+    {
+      "id": "5ae9",
+      "fullName": "yousef abdallah",
+      "email": "yousef.abdallah@gmail.com",
+      "role": "buyer",
+      "password": "12345!@Az",
+      "confirmPassword": "12345!@Az"
+    }
+  ],
+  "Requists": [
+    {
+      "requistId": "1",
+      "productName": "aaaaa",
+      "categorie": "jars",
+      "price": "15$",
+      "sellerId": "a9b2",
+      "statu": "Rejected",
+      "id": "7c11"
+    },
+    {
+      "requistId": "1",
+      "productName": "aaaaa",
+      "categorie": "jars",
+      "price": "15$",
+      "sellerId": "a9b2",
+      "statu": "Accepted",
+      "id": "7c12"
+    }
+  ],
+  "Products": [
+    {
+      "id": "1df3",
+      "productName": "Stone Gates",
+      "price": "29$",
+      "sellerEmail": "omar@gmail.com",
+      "role": "decores",
+      "productImg": "C:\\fakepath\\image2.jpg"
+    },
+    {
+      "id": "b215",
+      "productName": "Golden Earth",
+      "price": "19$",
+      "sellerEmail": "omar@gmail.com",
+      "role": "candleHolders",
+      "productImg": "C:\\fakepath\\image5.jpg"
+    },
+    {
+      "id": "ffcd",
+      "productName": "Golden Deer",
+      "price": "19$",
+      "sellerEmail": "soliman@gmail.com",
+      "role": "candleHolders",
+      "productImg": "C:\\fakepath\\image3.jpg"
+    },
+    {
+      "id": "8ce9",
+      "productName": "White Twins",
+      "price": "29$",
+      "sellerEmail": "soliman@gmail.com",
+      "role": "vases",
+      "productImg": "C:\\fakepath\\image4.jpg"
+    },
+    {
+      "id": "87e6",
+      "productName": "Pearl&Gold Mini",
+      "price": "18$",
+      "sellerEmail": "soliman@gmail.com",
+      "role": "candleHolders",
+      "productImg": "C:\\fakepath\\image1.jpg"
+    },
+    {
+      "id": "741b",
+      "productName": "Golden Elegance",
+      "price": "16$",
+      "sellerEmail": "omar@gmail.com",
+      "role": "vases",
+      "productImg": "C:\\fakepath\\image7.jpg"
+    },
+    {
+      "id": "1c58",
+      "productName": "Golden Halo",
+      "price": "15$",
+      "sellerEmail": "omar@gmail.com",
+      "role": "vases",
+      "productImg": "C:\\fakepath\\image8.jpg"
+    },
+    {
+      "id": "c4d8",
+      "productName": "Snow Glow",
+      "price": "15$",
+      "sellerEmail": "omar@gmail.com",
+      "role": "candleHolders",
+      "productImg": "C:\\fakepath\\image9.jpg"
+    },
+    {
+      "id": "2a73",
+      "productName": "Heaven River",
+      "price": "21$",
+      "sellerEmail": "omar@gmail.com",
+      "role": "vases",
+      "productImg": "C:\\fakepath\\image10.jpg"
+    },
+    {
+      "id": "d657",
+      "productName": "Gold&Pearl Big",
+      "price": "24$",
+      "sellerEmail": "omar@gmail.com",
+      "role": "vases",
+      "productImg": "C:\\fakepath\\image11.jpg"
+    },
+    {
+      "id": "ccfa",
+      "productName": "Glass Feathers",
+      "price": "19$",
+      "sellerEmail": "omar@gmail.com",
+      "role": "keysHolders",
+      "productImg": "C:\\fakepath\\image6.jpg"
+    },
+    {
+      "id": "13e9",
+      "productName": "Night Stars",
+      "price": "24$",
+      "sellerEmail": "omar@gmail.com",
+      "role": "candleHolders",
+      "productImg": "C:\\fakepath\\image12.jpg"
+    }
+  ],
+  "Orders": [
+    {
+      "orderNum": "1234",
+      "buyerId": "3f57",
+      "buyer-No": "657350565",
+      "buyer-Add": " Abu Bakr El-Seddik St., HELIOPOLIS,Cairo",
+      "statu": "shipped",
+      "id": "a26d"
+    },
+    {
+      "orderNum": "1235",
+      "buyerId": "3f57",
+      "buyer-No": "20-2-2363469",
+      "buyer-Add": "34 El-Emam El-Hussein St., El-Sharabeya,Daher",
+      "statu": "deliverd",
+      "id": "f4c3"
+    },
+    {
+      "orderNum": "1236",
+      "buyerId": "3f57",
+      "buyer-No": "20-2-7358586",
+      "buyer-Add": "Ahmed Said St.,Abbasseya,Cairo",
+      "statu": "shipped",
+      "id": "3fda"
+    }
+  ]
+}

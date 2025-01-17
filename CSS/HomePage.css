@@ -1,0 +1,188 @@
+#main {
+    border: 2px solid grey;
+    margin: 0 auto;
+    width: 70%;
+    background-color: #e5e8ef;
+  }
+  
+  .Navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 7px;
+  }
+  
+  .Navbar h1 {
+    color: black;
+    margin-left: 20px;
+    margin-right: 45%;
+    font-family: "Petit Formal Script", serif;
+  }
+  
+  .Navbar a {
+    color: black;
+    text-decoration: none;
+    margin-right: 3%;
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+    transition: color 0.3s ease;
+  }
+  
+  .Navbar a:hover,.highlight {
+    color: #f39c12;
+  }
+
+  td h3 a:hover{
+    background-color: black;
+    color: #f39c12;
+  }
+  
+  .Navbar a:last-child {
+    padding-right: 30px;
+    font-size: 16px;
+  }
+
+  #bag{
+    font-size: 20px;
+  }
+  
+  table {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .petit-formal-script-regular {
+    font-family: "Petit Formal Script", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .content {
+    vertical-align: bottom;
+    font-family: "Petit Formal Script", serif;
+    font-size: 20px;
+  }
+  
+  .content2 {
+    vertical-align: top;
+    padding-left: 50px;
+    height: 30px;
+    font-family: "Petit Formal Script", serif;
+    font-size: 20px;
+  }
+  
+  td p,td h3 {
+    vertical-align: top;
+    padding-left: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+
+  td h3{
+    vertical-align: bottom;
+  }
+  
+  td h3 a {
+    vertical-align: bottom;
+    border-radius: 10px;
+    background-color: #f39c12;
+    padding: 5px;
+    font-family: "Petit Formal Script", serif;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+    font-size: 19px;
+  }
+  
+  .main img {
+    border: 2px solid grey;
+    border-radius: 100px 100px 0 0;
+    width: 200px;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right:50px;
+    align-items: left;
+  }
+  
+  .Ctable {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    height: 230px;
+    text-align: center;
+  }
+  
+  .catigories {
+    vertical-align: top;
+  }
+  
+  .catigories2 {
+    vertical-align: bottom;
+  }
+  
+  .catigories img {
+    border-radius: 3px;
+    border: 2px solid grey;
+    width: 150px;
+    transition:0.3s ease;
+  }
+  
+  .catigories2 img {
+    border-radius: 3px;
+    border: 2px solid grey;
+    width: 150px;
+    transition:0.3s ease;
+  }
+
+  .catigories img:hover,.catigories2 img:hover{
+    width: 180px;
+
+  }
+  
+  .Cname {
+    height: 30px;
+    width: 100px;
+    font-family: sans-serif;
+  }
+  
+  .Ccaption {
+    border-top: 4px dotted grey;
+    padding-top: 10px;
+    margin-left: 150px;
+    font-family: "Petit Formal Script", serif;
+    font-size: 25px;
+  }
+  
+  .Atable {
+    width: 80%;
+  }
+  
+  
+  .Aimage img {
+    border-radius: 3px;
+    width: 200px;
+    margin-left: 100px;
+  }
+
+  .footer{
+    border-top: 1px dashed grey;
+    background-color: lightgrey;
+  }
+
+  .footer h2{
+    color: black;
+    margin-left:100px;
+    margin-bottom: 10px;
+  }
+
+  .footer table{
+    color: black;
+    text-align: center;
+    width: 30%;
+    margin-left: 50px;
+    margin-bottom: 0px;
+  }
+  
+ 
