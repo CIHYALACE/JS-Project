@@ -12,7 +12,7 @@ window.addEventListener("load", () => {
         const imgUrl = product.productImg.slice(12);
         const productCardHTML = `
             <div class="product-card">
-              <img src="../images/Products/${imgUrl}" alt="${product.productName}">
+              <img src="../Images/Products/${imgUrl}" alt="${product.productName}">
               <h3>${product.productName}</h3>
               <p class="price">${product.price}</p>
               <p>Enjoy Our ${product.role}</p>
@@ -34,7 +34,7 @@ window.addEventListener("load", () => {
             const imgUrl = data[i].productImg.slice(12);
             const productCardHTML = `
                     <div class="product-card">
-                      <img src="../images/Products/${imgUrl}" alt="${data[i].productName}">
+                      <img src="../Images/Products/${imgUrl}" alt="${data[i].productName}">
                       <h3>${data[i].productName}</h3>
                       <p class="price">${data[i].price}</p>
                       <p>Enjoy Our ${data[i].role}</p>
@@ -59,7 +59,7 @@ window.addEventListener("load", () => {
             const imgUrl = data[i].productImg.slice(12);
             const productCardHTML = `
                     <div class="product-card">
-                      <img src="../images/Products/${imgUrl}" alt="${data[i].productName}">
+                      <img src="../Images/Products/${imgUrl}" alt="${data[i].productName}">
                       <h3>${data[i].productName}</h3>
                       <p class="price">${data[i].price}</p>
                       <p>Enjoy Our ${data[i].role}</p>
@@ -84,7 +84,7 @@ window.addEventListener("load", () => {
             const imgUrl = data[i].productImg.slice(12);
             const productCardHTML = `
                     <div class="product-card">
-                      <img src="../images/Products/${imgUrl}" alt="${data[i].productName}">
+                      <img src="../Images/Products/${imgUrl}" alt="${data[i].productName}">
                       <h3>${data[i].productName}</h3>
                       <p class="price">${data[i].price}</p>
                       <p>Enjoy Our ${data[i].role}</p>
@@ -109,7 +109,7 @@ window.addEventListener("load", () => {
             const imgUrl = data[i].productImg.slice(12);
             const productCardHTML = `
                     <div class="product-card">
-                      <img src="../images/Products/${imgUrl}" alt="${data[i].productName}">
+                      <img src="../Images/Products/${imgUrl}" alt="${data[i].productName}">
                       <h3>${data[i].productName}</h3>
                       <p class="price">${data[i].price}</p>
                       <p>Enjoy Our ${data[i].role}</p>
@@ -134,7 +134,7 @@ window.addEventListener("load", () => {
           const imgUrl = product.productImg.slice(12);
           const productCardHTML = `
             <div class="product-card">
-              <img src="../images/Products/${imgUrl}" alt="${product.productName}">
+              <img src="../Images/Products/${imgUrl}" alt="${product.productName}">
               <h3>${product.productName}</h3>
               <p class="price">${product.price}</p>
               <p>Enjoy Our ${product.role}</p>
