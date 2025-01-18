@@ -122,7 +122,7 @@ window.addEventListener("load", () => {
                 statu: "deliverd",
               }),
             }).then((res) => {
-              alert(`Product Deleted!`);
+              alert(`statu Changed To delirerd!`);
             });
           });
 
@@ -144,7 +144,7 @@ window.addEventListener("load", () => {
                 statu: "shipped",
               }),
             }).then((res) => {
-              alert(`Role Changed To seller!`);
+              alert(`Statu Changed To shipped!`);
             });
           });
           buttonTd.appendChild(sillerButton);
