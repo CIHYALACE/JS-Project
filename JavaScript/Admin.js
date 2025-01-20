@@ -40,11 +40,13 @@ window.addEventListener("load", () => {
             let buttonTd = document.createElement("td");
             let buyerButton = document.createElement("button");
             buyerButton.innerText = "Buyer";
-            buyerButton.style.backgroundColor = "black";
+            buyerButton.style.backgroundColor = "grey";
             buyerButton.style.color = "white";
-            buyerButton.style.border = "none";
+            buyerButton.style.border = "1px solid black";
             buyerButton.style.borderRadius = "4px";
             buyerButton.style.cursor = "pointer";
+            buyerButton.style.padding="5px";
+
 
             buyerButton.addEventListener("click", () => {
               fetch(`http://localhost:3000/Users/${data[i].id}`, {
@@ -60,15 +62,17 @@ window.addEventListener("load", () => {
               });
             });
             // button to change the user role to normal seller
-            let sillerButton = document.createElement("button");
-            sillerButton.innerText = "Seller";
-            sillerButton.style.backgroundColor = "black";
-            sillerButton.style.color = "white";
-            sillerButton.style.border = "none";
-            sillerButton.style.borderRadius = "4px";
-            sillerButton.style.cursor = "pointer";
+            let sellerButton = document.createElement("button");
+            sellerButton.innerText = "Seller";
+            sellerButton.style.backgroundColor = "grey";
+            sellerButton.style.color = "white";
+            sellerButton.style.border = "1px solid black";
+            sellerButton.style.borderRadius = "4px";
+            sellerButton.style.cursor = "pointer";
+            sellerButton.style.padding="5px";
+            sellerButton.style.margin="1px";
 
-            sillerButton.addEventListener("click", () => {
+            sellerButton.addEventListener("click", () => {
               fetch(`http://localhost:3000/Users/${data[i].id}`, {
                 method: "PATCH",
                 headers: {
@@ -81,7 +85,7 @@ window.addEventListener("load", () => {
                 alert(`Role Changed To seller!`);
               });
             });
-            buttonTd.appendChild(sillerButton);
+            buttonTd.appendChild(sellerButton);
             buttonTd.appendChild(buyerButton);
             targetTr.appendChild(buttonTd);
 
@@ -126,10 +130,14 @@ window.addEventListener("load", () => {
           let buttonTd = document.createElement("td");
           let actionButton = document.createElement("button");
           actionButton.innerText = "Delete";
-          actionButton.style.backgroundColor = "black";
+          actionButton.style.backgroundColor = "grey";
           actionButton.style.color = "white";
-          actionButton.style.border = "none";
+          actionButton.style.border = "1px solid black";
           actionButton.style.borderRadius = "4px";
+          actionButton.style.cursor = "pointer";
+          actionButton.style.padding="5px";
+          actionButton.style.margin="1px";
+
           actionButton.addEventListener("click", () => {
             fetch(`http://localhost:3000/Products/${data[i].id}`, {
               method: "DELETE",
@@ -179,10 +187,13 @@ window.addEventListener("load", () => {
           let buttonTd = document.createElement("td");
           let actionButton = document.createElement("button");
           actionButton.innerText = "Delete";
-          actionButton.style.backgroundColor = "black";
+          actionButton.style.backgroundColor = "grey";
           actionButton.style.color = "white";
-          actionButton.style.border = "none";
+          actionButton.style.border = "1px solid black";
           actionButton.style.borderRadius = "4px";
+          actionButton.style.cursor = "pointer";
+          actionButton.style.padding="5px";
+          actionButton.style.margin="1px";
           actionButton.addEventListener("click", () => {
             fetch(`http://localhost:3000/Products/${data[i].id}`, {
               method: "DELETE",
@@ -230,15 +241,17 @@ window.addEventListener("load", () => {
           }
           // button to change the user role to buyer
           let buttonTd = document.createElement("td");
-          let buyerButton = document.createElement("button");
-          buyerButton.innerText = "Accept";
-          buyerButton.style.backgroundColor = "black";
-          buyerButton.style.color = "white";
-          buyerButton.style.border = "none";
-          buyerButton.style.borderRadius = "4px";
-          buyerButton.style.cursor = "pointer";
+          let acceptButton = document.createElement("button");
+          acceptButton.innerText = "Accept";
+          acceptButton.style.backgroundColor = "grey";
+          acceptButton.style.color = "white";
+          acceptButton.style.border = "1px solid black";
+          acceptButton.style.borderRadius = "4px";
+          acceptButton.style.cursor = "pointer";
+          acceptButton.style.padding="5px";
+          acceptButton.style.margin="1px";
 
-          buyerButton.addEventListener("click", () => {
+          acceptButton.addEventListener("click", () => {
             fetch(`http://localhost:3000/Requists/${data[i].id}`, {
               method: "PATCH",
               headers: {
@@ -252,14 +265,17 @@ window.addEventListener("load", () => {
             });
           });
           // button to change the user role to normal seller
-          let sillerButton = document.createElement("button");
-          sillerButton.innerText = "Reject";
-          sillerButton.style.backgroundColor = "black";
-          sillerButton.style.color = "white";
-          sillerButton.style.border = "none";
-          sillerButton.style.borderRadius = "4px";
-          sillerButton.style.cursor = "pointer";
-          sillerButton.addEventListener("click", () => {
+          let rejectButton = document.createElement("button");
+          rejectButton.innerText = "Reject";
+          rejectButton.style.backgroundColor = "grey";
+          rejectButton.style.color = "white";
+          rejectButton.style.border = "1px solid black";
+          rejectButton.style.borderRadius = "4px";
+          rejectButton.style.cursor = "pointer";
+          rejectButton.style.padding="5px";
+          rejectButton.style.margin="1px";
+
+          rejectButton.addEventListener("click", () => {
             fetch(`http://localhost:3000/Requists/${data[i].id}`, {
               method: "PATCH",
               headers: {
@@ -272,8 +288,8 @@ window.addEventListener("load", () => {
               alert(`Requist Rejected Successfully!`);
             });
           });
-          buttonTd.appendChild(sillerButton);
-          buttonTd.appendChild(buyerButton);
+          buttonTd.appendChild(rejectButton);
+          buttonTd.appendChild(acceptButton);
           targetTr.appendChild(buttonTd);
 
           targetTable.appendChild(targetTr);

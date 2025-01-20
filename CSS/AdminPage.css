@@ -15,7 +15,7 @@
     border-left: 2px solid grey;
     border-right: 2px solid grey;
     border-radius: 20px;
-    height: 300px;
+    min-height: 300px;
     background-color: lightgrey;
     width: 75%;
     margin: 0 auto;
@@ -23,9 +23,27 @@
 }
 
 table{
+    border-collapse: collapse;
     padding-top: 10px;
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
     text-align: center;
+}
+
+th{
+  background-color: grey;
+  padding: 5px;
+  background-color: grey;
+  border: 1px solid black;
+}
+
+td{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+tr:nth-child(even){
+  background-color: lightgrey;
 }
 
 .upperButtons {

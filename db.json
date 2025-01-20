@@ -20,7 +20,7 @@
       "id": "b767",
       "fullName": "omar ahmed youssef",
       "email": "omar@gmail.com",
-      "role": "seller",
+      "role": "buyer",
       "password": "omar2000",
       "confirmPassword": "omar2000"
     },
@@ -71,6 +71,14 @@
       "role": "buyer",
       "password": "12345!@Az",
       "confirmPassword": "12345!@Az"
+    },
+    {
+      "id": "0870",
+      "fullName": "abdulla ali",
+      "email": "abdulla@gmail.com",
+      "role": "admin",
+      "password": "Abdulla2000",
+      "confirmPassword": "Abdulla2000"
     }
   ],
   "Requists": [
@@ -80,7 +88,7 @@
       "categorie": "jars",
       "price": "15$",
       "sellerId": "a9b2",
-      "statu": "Rejected",
+      "statu": "Accepted",
       "id": "7c11"
     },
     {
@@ -89,7 +97,7 @@
       "categorie": "jars",
       "price": "15$",
       "sellerId": "a9b2",
-      "statu": "Accepted",
+      "statu": "Rejected",
       "id": "7c12"
     }
   ],
@@ -101,14 +109,6 @@
       "sellerEmail": "omar@gmail.com",
       "role": "decores",
       "productImg": "C:\\fakepath\\image2.jpg"
-    },
-    {
-      "id": "b215",
-      "productName": "Golden Earth",
-      "price": "19$",
-      "sellerEmail": "omar@gmail.com",
-      "role": "candleHolders",
-      "productImg": "C:\\fakepath\\image5.jpg"
     },
     {
       "id": "ffcd",
@@ -159,14 +159,6 @@
       "productImg": "C:\\fakepath\\image9.jpg"
     },
     {
-      "id": "2a73",
-      "productName": "Heaven River",
-      "price": "21$",
-      "sellerEmail": "omar@gmail.com",
-      "role": "vases",
-      "productImg": "C:\\fakepath\\image10.jpg"
-    },
-    {
       "id": "d657",
       "productName": "Gold&Pearl Big",
       "price": "24$",
@@ -189,6 +181,14 @@
       "sellerEmail": "omar@gmail.com",
       "role": "candleHolders",
       "productImg": "C:\\fakepath\\image12.jpg"
+    },
+    {
+      "id": "cb33",
+      "productName": "aaaaa",
+      "price": "12$",
+      "sellerEmail": "hamed@gmail.com",
+      "role": "vases",
+      "productImg": "C:\\fakepath\\image7.jpg"
     }
   ],
   "Orders": [

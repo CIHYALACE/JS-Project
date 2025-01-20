@@ -46,15 +46,17 @@ window.addEventListener("load", () => {
             let buttonTd = document.createElement("td");
 
             // button to change the user role to normal seller
-            let sillerButton = document.createElement("button");
-            sillerButton.innerText = "Delete";
-            sillerButton.style.backgroundColor = "black";
-            sillerButton.style.color = "white";
-            sillerButton.style.border = "none";
-            sillerButton.style.borderRadius = "4px";
-            sillerButton.style.cursor = "pointer";
+            let actionButton = document.createElement("button");
+            actionButton.innerText = "Delete";
+            actionButton.style.backgroundColor = "grey";
+            actionButton.style.color = "white";
+            actionButton.style.border = "1px solid black";
+            actionButton.style.borderRadius = "4px";
+            actionButton.style.cursor = "pointer";
+            actionButton.style.padding="5px";
+            actionButton.style.margin="1px";
 
-            sillerButton.addEventListener("click", () => {
+            actionButton.addEventListener("click", () => {
               fetch(`http://localhost:3000/Products/${data[i].id}`, {
                 method: "DELETE",
                 headers: {
@@ -64,7 +66,7 @@ window.addEventListener("load", () => {
                 alert(`Product Deleted successfully!`);
               });
             });
-            buttonTd.appendChild(sillerButton);
+            buttonTd.appendChild(actionButton);
             targetTr.appendChild(buttonTd);
 
             targetTable.appendChild(targetTr);
@@ -106,13 +108,17 @@ window.addEventListener("load", () => {
           }
 
           let buttonTd = document.createElement("td");
-          let actionButton = document.createElement("button");
-          actionButton.innerText = "Deliverd";
-          actionButton.style.backgroundColor = "black";
-          actionButton.style.color = "white";
-          actionButton.style.border = "none";
-          actionButton.style.borderRadius = "4px";
-          actionButton.addEventListener("click", () => {
+          let deliverdButton = document.createElement("button");
+          deliverdButton.innerText = "Deliverd";
+          deliverdButton.style.backgroundColor = "grey";
+          deliverdButton.style.color = "white";
+          deliverdButton.style.border = "1px solid black";
+          deliverdButton.style.borderRadius = "4px";
+          deliverdButton.style.cursor = "pointer";
+          deliverdButton.style.padding="5px";
+          deliverdButton.style.margin="1px";
+          
+          deliverdButton.addEventListener("click", () => {
             fetch(`http://localhost:3000/Orders/${data[i].id}`, {
               method: "PATCH",
               headers: {
@@ -126,15 +132,17 @@ window.addEventListener("load", () => {
             });
           });
 
-          let sillerButton = document.createElement("button");
-          sillerButton.innerText = "Shipped";
-          sillerButton.style.backgroundColor = "black";
-          sillerButton.style.color = "white";
-          sillerButton.style.border = "none";
-          sillerButton.style.borderRadius = "4px";
-          sillerButton.style.cursor = "pointer";
+          let shippedButton = document.createElement("button");
+          shippedButton.innerText = "Shipped";
+          shippedButton.style.backgroundColor = "grey";
+          shippedButton.style.color = "white";
+          shippedButton.style.border = "1px solid black";
+          shippedButton.style.borderRadius = "4px";
+          shippedButton.style.cursor = "pointer";
+          shippedButton.style.padding="5px";
+          shippedButton.style.margin="1px";
 
-          sillerButton.addEventListener("click", () => {
+          shippedButton.addEventListener("click", () => {
             fetch(`http://localhost:3000/Orders/${data[i].id}`, {
               method: "PATCH",
               headers: {
@@ -147,8 +155,8 @@ window.addEventListener("load", () => {
               alert(`Statu Changed To shipped!`);
             });
           });
-          buttonTd.appendChild(sillerButton);
-          buttonTd.appendChild(actionButton);
+          buttonTd.appendChild(shippedButton);
+          buttonTd.appendChild(deliverdButton);
           targetTr.appendChild(buttonTd);
 
           targetTable.appendChild(targetTr);
