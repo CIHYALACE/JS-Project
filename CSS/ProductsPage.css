@@ -1,3 +1,7 @@
+body{
+  background-image: url(../Images/black-liquid-marble-background-handmade-acrylic-paint.jpg);
+}
+
 #main {
     border: 2px solid grey;
     margin: 0 auto;
